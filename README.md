@@ -1,1 +1,1 @@
-# OCR-using-RShiny
+# Textify 
