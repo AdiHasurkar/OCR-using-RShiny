@@ -4,7 +4,7 @@
 #
 #    http://shiny.rstudio.com/
 #
-# Define server logic
+# Set your directory and Define server logic
 
 shinyServer(function(input, output, session) {
     #Creating the waiter :-
@@ -58,17 +58,19 @@ shinyServer(function(input, output, session) {
             p(br(),"Textify allows the user to extract text from an image that
               can be shared across any device and platform which supports 
               text. It is as simple as it sounds! Personally, I have been 
-              using Textify to extract text from screenshots so that required information 
-              is just a search away.", style = "font-family: 'times'; font-size: 18px"),
+              using Textify to extract text from screenshots so that the text contained in the screenshot can be saved
+              in notes and can be quickly searched.", style = "font-family: 'times'; font-size: 18px"),
             
-            p("Once the user uploads an image, the algorithm extracts text from
+            p("Once the user uploads an image, the app extracts text from
             the image and is displayed under the", em("Image and extracted text"), 
-            "tab. The extracted text is then used to identify seperate sentences within the text
-              and is used to form a wordcloud image for visualization purposes." , style = "font-family: 'times'; font-size: 18px"),
-            
+            "tab. The extracted text is used to identify seperate sentences within the text
+              and is further used to form a wordcloud image for visualization purposes." , 
+                style = "font-family: 'times'; font-size: 18px"),
+              
             p("No image at hand ? No problem, if no image is uploaded a default 
             test image is used for OCR. The R source code for this app 
-              can be found on my ", a(icon("github", lib="font-awesome"), style = "color:#080808", href="https://github.com/AdiHasurkar/OCR-using-RShiny"), "profile. 
+              can be found on my ", a(icon("github", lib="font-awesome"), style = "color:#080808", 
+                href="https://github.com/AdiHasurkar/OCR-using-RShiny"), "profile. 
               Hope you enjoy using this web app as much as I've enjoyed making it.", style = "font-family: 'times'; font-size: 18px"),
             
             h4("Cheers, Aditya",span(icon("beer", lib = "font-awesome", class = "fa-spin"), style = "color:#f28e1c"),
