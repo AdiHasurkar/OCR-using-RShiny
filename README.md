@@ -11,9 +11,10 @@ To see it in action, click [here](https://adityahasurkar.shinyapps.io/Textify/).
 
 # What problem does it solve?
 Textify is made for those who like to store image data in their devices and wish to free up some storage space by extracting text from those images and storing it in text format instead. If you're looking for a quick solution that could help do this job without any costs then look no more. 
+Below is an example that demonstrates the accuracy and feasibility of the app !
 
 
 ![Screenshot2](ss.png)
 
 # License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](License.md)
